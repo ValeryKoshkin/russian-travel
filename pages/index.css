@@ -1,0 +1,33 @@
+@import url(../vendor/normalize.css);
+@import url(../blocks/header/header.css);
+@import url(../blocks/main/main.css);
+@import url(../blocks/text/text.css);
+@import url(../blocks/gallery/gallery.css);
+@import url(../blocks/place/place.css);
+@import url(../blocks/place-card/place-card.css);
+@import url(../blocks/cover/cover.css);
+@import url(../blocks/footer/footer.css);
+
+@font-face {
+	src: url(fonts/Inter-Bold.woff);
+	font-family: 'Inter Bold';
+}
+
+@font-face {
+	src: url(fonts/Inter-Regular.woff);
+	font-family: 'Inter Regular';
+}
+
+@font-face {
+	src: url(fonts/Inter-ExtraBold.woff);
+	font-family: 'Inter Extrabold';
+}
+
+body {
+	background-color: #2A2C2F;
+}
+
+.root {
+	min-width: 320px;
+    max-width: 1920px;
+}

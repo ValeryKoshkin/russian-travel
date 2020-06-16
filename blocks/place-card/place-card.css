@@ -1,0 +1,71 @@
+@import url(./__title/place-card__title.css);
+@import url(./__text/place-card__text.css);
+@import url(./__text-item/place-card__text-item.css);
+@import url(./__link/place-card__link.css);
+@import url(./__link-item/place-card__link-item.css);
+@import url(./__image/place-card__image.css);
+@import url(./__url/place-card__url.css);
+
+.place-card {
+	display: grid;
+    grid-template-rows: 1fr 460px;
+    grid-template-columns: 1fr 1fr;
+    grid-row-gap: 60px;
+    grid-column-gap: 40px;
+    margin: 92px 0 0;
+}
+
+@media screen and (min-width: 500px) and (max-width: 768px){
+	.place-card__text{
+		font-size: 16px;
+		line-height: 26px;;
+	}
+
+	
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px){
+	.place-card{
+		display: -webkit-flex;
+		display: -moz-flex;
+		display: -ms-flex;
+		display: -o-flex;
+		display: flex;
+		-webkit-flex-direction: column;
+		-moz-flex-direction: column;
+		-ms-flex-direction: column;
+		-o-flex-direction: column;
+		flex-direction: column;
+		margin-top: 48px;
+	}
+
+	.place-card:first-child{
+		margin-top: 64px;
+	}
+	
+	.place-cards{
+		margin: 0 auto;
+	}
+	
+	.place-card__link{
+		display: none;
+	}
+
+	.place-card__title{
+		font-size: 32px;
+		line-height: 35px;
+	}
+
+	.place-card__image{
+		margin-top: 32px;
+	}
+
+	.place-card__text{
+		margin-top: 32px;
+		font-size: 16px;
+	}
+
+	.place-card__text-item{
+		margin: 0;
+	}
+}

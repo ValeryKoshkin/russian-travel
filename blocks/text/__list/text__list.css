@@ -1,0 +1,9 @@
+.text__list {
+	padding: 0;
+	list-style: none;
+	font-size: 12px;
+	line-height: 18px;
+	font-family: 'Inter Regular', sans-serif;
+	color: #fff;
+	margin: 32px 0 0 0;
+}

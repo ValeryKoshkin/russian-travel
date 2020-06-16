@@ -1,0 +1,80 @@
+@import url(./__title/cover__title.css);
+@import url(./__subtitle/cover__subtitle.css);
+@import url(./__overlay/cover__overlay.css);
+
+.cover {
+	display: block;
+    width: 100%;
+    max-width: 1184px;
+    height: 740px;
+    margin: 92px auto 0 auto;
+    background-image: url(../../image/cover-trains.jpg);
+    text-decoration: none;
+    background-size: cover;
+}
+
+@media screen and (max-width: 1279px) and (min-width: 1024px){
+.cover {
+    height: 640px;
+}
+.cover__title{
+	margin: 195px auto 0 auto;
+}
+}
+@media screen and (max-width: 1023px) and (min-width: 768px){
+.cover {
+    height: 480px;
+}
+.cover__title{
+	margin: 115px auto 0 auto;
+}
+}
+
+@media screen and (max-width: 767px) and (min-width: 550px){
+.cover {
+    height: 420px;
+}
+.cover__title{
+	margin: 90px auto 0 auto;
+	font-size: 50px;
+	line-height: 1;
+}
+.cover__subtitle{
+	margin-top: 24px;
+	font-size: 16px;
+}
+}
+
+@media screen and (max-width: 549px) and (min-width: 400px){
+.cover {
+    height: 360px;
+}
+.cover__title{
+	margin: 50px auto 0 auto;
+	font-size: 40px;
+	max-width: 400px;
+	line-height: 1.1;
+}
+.cover__subtitle{
+	margin-top: 22px;
+	font-size: 16px;
+}
+}
+
+
+@media screen and (max-width: 399px) and (min-width: 320px) {
+.cover {
+    height: 200px;
+    margin-top: 64px;
+}
+.cover__title{
+	margin: 33px auto 0 auto;
+	font-size: 32px;
+	line-height: 1.1;
+}
+.cover__subtitle{
+	margin-top: 16px;
+	font-size: 14px;
+	line-height: 16px;
+}
+}

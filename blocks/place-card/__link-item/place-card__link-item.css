@@ -1,0 +1,11 @@
+.place-card__link-item {
+	font-size: 18px;
+	line-height: 22px;
+	font-family: 'Inter Regular', sans-serif;
+	color: #fff;
+	transition: .3s;
+}
+
+.place-card__link-item:hover {
+	opacity: 0.3;
+}
