@@ -7,3 +7,29 @@
 	color: #fff;
 	margin: 32px 0 0 0;
 }
+
+@media screen and (max-width: 928px) and (min-width: 769px) {
+	.text__list {
+		margin-left: 24px;
+	}
+}
+
+@media screen and (max-width: 768px) and (min-width: 600px) {
+	.text__list {
+		margin-left: 24px;
+	}
+}
+
+@media screen and (max-width: 599px) and (min-width: 450px) {
+	.text__list{
+		margin-left: 20px;
+	}
+}
+
+@media screen and (max-width: 449px) and (min-width: 320px) {
+	.text__list{
+		margin-left: 16px;
+		font-size: 12px;
+		line-height: 18px;
+	}
+}

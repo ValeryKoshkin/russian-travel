@@ -1,4 +1,5 @@
 @import url(./__lang/header__lang.css);
+@import url(./__logo/header__logo.css);
 
 .header {
 	display: -webkit-flex;
@@ -26,23 +27,10 @@
 	}
 }
 
-@media screen and (max-width: 470px){
-	.header__logo{
-		width: 142px;
-		
-	}
-}
 
 @media screen and (max-width: 470px){
-	.header__logo{
-		width: 142px;
-	}
 	.header{
 		width: 90%;
 		margin: 16px auto 0 auto;
-	}
-	.header__lang{
-		font-size: 18px;
-		line-height: 24px;
 	}
 }

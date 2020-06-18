@@ -5,3 +5,14 @@
 	display: -o-flex;
 	display: flex;
 }
+
+@media screen and (max-width: 637px) and (min-width: 320px){
+	.footer__links{
+		-webkit-flex-direction: column;
+		-moz-flex-direction: column;
+		-ms-flex-direction: column;
+		-o-flex-direction: column;
+		flex-direction: column;
+		
+	}
+}

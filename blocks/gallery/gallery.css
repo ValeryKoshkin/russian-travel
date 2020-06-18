@@ -9,13 +9,6 @@
 	grid-gap: 16px;
 }
 
-@media screen and (min-width: 1280px){
-	.gallery__item{
-	
-	height: 100%;
-}
-}
-
 
 @media screen and (max-width: 1279px) and (min-width: 1024px){
 	.gallery {

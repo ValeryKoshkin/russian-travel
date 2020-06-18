@@ -3,6 +3,7 @@
 @import url(./__title/text__title.css);
 @import url(./__list-bold/text__list-bold.css);
 
+
 .text {
 	max-width: 800px;
 	margin: 0 auto;
@@ -23,67 +24,3 @@
 
 }
 
-@media screen and (max-width: 928px) and (min-width: 769px){
-	.text__title{
-		margin-left: 24px;
-	}
-
-
-	.text__subtitle{
-		margin-left: 24px;
-	}
-
-	.text__list{
-		margin-left: 24px;
-	}
-}
-
-@media screen and (max-width: 768px) and (min-width: 600px){
-	.text__title{
-		font-size: 40px;
-		margin-left: 24px;
-	}
-	.text__subtitle{
-		margin-left: 24px;
-	}
-	.text__list{
-		margin-left: 24px;
-	}
-}
-
-@media screen and (max-width: 599px) and (min-width: 450px){
-	.text__title{
-		font-size: 35px;
-		margin-left: 24px;
-	}
-	.text__subtitle{
-		margin-left: 20px;
-	}
-
-	.text__list{
-		margin-left: 20px;
-	}
-}
-
-@media screen and (max-width: 449px) and (min-width: 320px){
-	.text__title{
-		font-size: 32px;
-		line-height: 1.1;
-		width: 210px;
-		margin:64px 0 0 16px;
-	}
-
-	.text__subtitle{
-		margin-left: 16px;
-	}
-
-	.text__title{
-		margin-top: 64px;
-	}
-
-	.text__list{
-		margin-left: 16px;
-		font-size: 12px;
-		line-height: 18px;
-	}
-}

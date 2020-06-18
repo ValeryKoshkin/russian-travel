@@ -1,3 +1,4 @@
 .text__list-bold {
-	font-family: 'Inter Bold', sans-serif;
+	font-family: 'Inter', sans-serif;
+	font-weight: bold;
 }
