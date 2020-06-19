@@ -8,11 +8,16 @@
 
 .place-card {
 	display: grid;
-    grid-template-rows: 1fr 460px;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 460px 1fr;
     grid-row-gap: 60px;
     grid-column-gap: 40px;
     margin: 92px 0 0;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px){
+	.place-card {
+	grid-template-columns: 440px 1fr;
+	}
 }
 
 @media screen and (min-width: 320px) and (max-width: 767px){

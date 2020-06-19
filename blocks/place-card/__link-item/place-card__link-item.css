@@ -1,7 +1,7 @@
 .place-card__link-item {
 	font-size: 18px;
 	line-height: 22px;
-	font-family: 'Inter', sans-serif;
+	font-family: 'Inter', Arial, sans-serif;
 	font-weight: normal;
 	color: #fff;
 	transition: .3s;

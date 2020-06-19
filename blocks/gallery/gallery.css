@@ -14,7 +14,7 @@
 	.gallery {
 		grid-template-rows: repeat(4, 1fr);
     	grid-template-columns: repeat(3, 1fr);
-    	margin: 0 24px;
+    	margin: 92px 48px 0 48px;
 	}
 
  }
@@ -24,7 +24,8 @@
 	.gallery {
 		grid-template-rows: repeat(6, 1fr);
     	grid-template-columns: repeat(2, 1fr);
-    	margin: 0 24px;
+    	margin: 88px 24px 0 24px;
+
 	}
 
  }
@@ -33,7 +34,7 @@
 	.gallery {
 		    grid-template-rows: repeat(12, 1fr);
     		grid-template-columns: repeat(1, 100%);
-    		margin: 0 16px;
+    		margin: 64px 16px 0 16px;
 	}
 
  }

@@ -1,11 +1,14 @@
 .place-card__image {
 	width: 100%;
-    object-fit: cover;
-    max-width: 435px;
+	object-fit: cover;
+    
 }
 
-@media screen and (min-width: 320px) and (max-width: 767px) {
+
+
+@media screen and (min-width: 320px) and (max-width: 768px) {
 	.place-card__image{
 		margin-top: 32px;
+		max-width: 340px;
 	}
 }

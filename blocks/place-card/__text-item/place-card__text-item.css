@@ -1,9 +1,14 @@
-.place-card__text-item {
-	margin: 0 0 24px 0;
+.place-card__text-item{
+	margin: 0;
 }
 
-@media screen and (min-width: 320px) and (max-width: 767px) {
+
+.place-card__text-item:last-of-type{
+	margin: 24px 0 0 0;
+}
+
+/*@media screen and (min-width: 320px) and (max-width: 767px) {
 	.place-card__text-item{
 		margin: 0;
 	}
-}
+}*/

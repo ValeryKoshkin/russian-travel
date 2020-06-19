@@ -10,7 +10,7 @@
 }
 
 
-.header__lang:last-of-type {
+.header__lang:last-child {
 	margin-left: 18px;
 }
 

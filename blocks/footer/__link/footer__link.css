@@ -1,12 +1,13 @@
 .footer__link {
 	font-size: 16px;
 	line-height: 18px;
-	font-family: 'Inter', sans-serif;
+	font-family: 'Inter', Arial, sans-serif;
 	font-weight: normal;
 	text-decoration: none;
 	color: #fff;
 	margin-right: 18px;
 	transition: .3s;
+
 }
 
 .footer__link:hover {
@@ -21,14 +22,13 @@
 
 @media screen and (max-width: 637px) and (min-width: 320px) {
 	.footer__link{
-		margin-top: 32px;
-		margin-left: 16px;
+		
 		font-size: 24px;
 		line-height: 24px;
+		display: inline-block;
 	}
-
-	.footer__link:first-child{
-		margin-top: 0px;
-	}
+	
+	
+	
 }
 
